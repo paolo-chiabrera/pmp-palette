@@ -1,7 +1,13 @@
 language: node_js
 node_js:
-  - v6
-  - v5
-  - v4
-  - '0.12'
-  - '0.10'
+- v7
+- v6
+deploy:
+  provider: npm
+  email: paolo.chiabrera@gmail.com
+  api_key:
+    secure: ODGFvpm0bbhIKolRNS0UzvfV/qGwWVVoYyI/aSxCTHFYEZszWVhGkadf4CbP4ZLBWqwT0v0P2OQGQ+3Qu1Fp+legPbpo0e2kH9KwBeAlpamSqFovKJIA9gHRysnLKT/tyMAqeijK9MLiG2LK/pcAv9nMzG6lDlOm4hSdDF07cvrObR7+77CaUz5JwxI68JPCwQEPOAs1FxBv2PV/oQeCA7kC0faDpr18850BNuo9ZE5jILQIAr2hgrg8wibrtPZabMjBC/EcYtez5xfoYsuSR2tFgRSSClhhJ9qIvTHzu5qVBRdnWiYF0u1gjDCXFkTpTfQkHalrF5R0D2yWJpM/KqZVxQsR3M/VXiQxC8TdxukOwO+pUd7bnoubIfkbXecARA2i0uQ9rU25fbcCDl8tpEwHb+6ddkZEVN8oqBn+88GZ5KLf3y3WCR8pV3YKZ0pzHtWOrSiPJYprYCEIv9ORFmoNQQTCrYvt2cKDlbN8WRCSimcUMgckp6knp95WoBQG03tSN3DZXfxs4TI6eafiLV9z66FVuWDJaP4spX/+V8yNBIzzdMBGnM1a3FYMcC/vzehrrNZoHK02vpo12GWdoWQXikmoP1eCmHbG8RMqWn91uuubt5GJZ9AWrUm+rW1BoA81Sn7sy177uTM3mgy1bYDaXSQFkGbD4ka/e4oC35k=
+  on:
+    tags: true
+    node: v6
+    repo: paolo-chiabrera/pmp-palette
