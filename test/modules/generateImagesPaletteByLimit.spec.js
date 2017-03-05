@@ -62,19 +62,6 @@ describe('generateImagesPaletteByLimit', () => {
 			expect(callback).to.have.been.calledWith(fakeError);
 		});
 
-		// it('should return an error: getImagesPalette', () => {
-		// 	const fakeError = new Error('fake');
-		//
-		// 	main.getImagesPalette.restore();
-		// 	sinon.stub(main, 'getImagesPalette', (args, callback) => {
-		// 		callback(fakeError);
-		// 	});
-		//
-		// 	generateImagesPaletteByLimit(args, callback);
-		//
-		// 	expect(callback).to.have.been.calledWith(fakeError);
-		// });
-
 		it('should return the results', () => {
 			generateImagesPaletteByLimit(args, callback);
 
