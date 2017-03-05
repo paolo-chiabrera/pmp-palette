@@ -1,6 +1,6 @@
 {
   "name": "pmp-palette",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "pmp image palette generator",
   "homepage": "https://github.com/yeoman/generator-node",
   "author": {
